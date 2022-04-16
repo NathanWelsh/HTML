@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* -------------------------------------------
+//  brcmobile.css for all mobile html files 
+// comes after brcreset.css to reset all css
+----------------------------------------------*/
+
+html {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Arial', sans-serif;   
+} 
+
+body {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:lightgrey;
+}
+
+.wsalert {
+   /* margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(0,51,102);
+    width: 100%;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 3.0em;
+    */
+
+    color: white;
+}
+
+ul, ol {
+    list-style: disc;
+}
+
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(0,51,102);
+    width: 100%;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 3.0em;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 2.5em;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 9px;
+    font-size: 2.0em;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 9px;
+    font-size: 1.5em;
+}
+
+h5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 9px;
+    font-size: 1.0em;
+}
+
+.rwwline {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(0,51,102);
+}
+
+footer > img, header > a > img {
+    display:block;
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+
+.button {
+    font-size: 30px;
+}
+
+body > header {
+    background-color: #003174;
+    width: 100%;
+}
+
+nav.menuBar {
+    line-height: 2.5em;
+
+}
+
+
+nav.menuBar ul li {
+    width: 100%;
+    line-height: 2.5em;
+    padding-left: 10px;
+
+}
+
+nav.menuBar ul li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+nav.menuBar::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav.menuBar ul {
+    display: none;
+    margin-top: -1px;
+    list-style: none;
+    font-size: 1.8em;
+
+}
+
+a#navicon:hover+ul, nav.menuBar ul:hover {
+    display: block;
+    position:fixed;
+    background-image:linear-gradient(to bottom right,#003174,grey,#003194);
+    /*   background-image:linear-gradient(to bottom right,#003174,grey,#003174);*/
+    width:50%;   
+}   
+
+nav li {
+    font-size: 1.5em;
+}
+
+div, p, ul, li, h1 {
+    font-family:Arial, Helvetica;
+}
+
+.rwwlistulhomepage {
+    list-style:square; 
+    margin-left:20px;
+    margin-bottom:20px;
+
+}
+.rwwlistlihomepage {
+  list-style:square; 
+    font-size: 2.0em;
+    color: black;
+    text-align: left;
+    margin-left:20px;
+    margin-bottom:20px;
+    padding-left: 20px;
+    font-family:Arial, Helvetica;
+}
+.rwwlist2 ul {
+
+}
+.rwwlist2 ul li {
+
+    list-style:disc; 
+    font-size:20;
+    color: black;
+    text-align: left;
+    margin-left:20px;
+    font-family:Arial, Helvetica;
+}
+
+.rwwlist3 {
+    font-size:15px;
+    margin-left:20px;
+}
+
+.mobile_home_tdata img {
+    display: block;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+}
+
+
+
+.granitetops img, .bathvanities img, .kitchenmobile img, header > img, footer img {
+    display:block;
+    width:100%;
+}
+
+
+
+.kitchenmobile td {
+    border:2px solid #000000 ;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+
+.granitetops h1 {
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(0,51,102);
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 2.4em;
+}
+
+.granitetops h2 {
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(0,51,102);
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 2.0em;
+}
+
+td#contactusMap {
+    text-align: center;
+}
+
+.pic img{
+    width: 95%;
+    max-height: 20%;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.pic {
+    align-items: center;
+
+}
+
+.pic h1 {
+    font-size: 45px;
+
+    margin-bottom: 1.7em;
+}
+
+
+.bathpic {
+    align-items: center;
+    border: 3px solid #000000;
+    border-color: black;
+}
+
+
+.bathpic img{
+    width: 95%;
+    max-height: 20%;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.contactusmobiletable {
+    width: 100%;
+}
+
+.vanitymobilebutton2 {
+    align-items: center;
+    border: 6px solid #000000;
+    color: black;
+    padding: 25px 42px;
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.vanitymobilebutton {
+    align-items: center;
+    border: 6px solid #000000;
+    color: black;
+    padding: 25px 42px;
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+
